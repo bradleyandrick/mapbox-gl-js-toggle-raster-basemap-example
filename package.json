@@ -1,0 +1,8 @@
+{
+  "name": "mapbox-simple-map",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "mapbox-gl": "0.44.1"
+  }
+}
