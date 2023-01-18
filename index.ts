@@ -4,7 +4,8 @@ import mapboxgl from 'mapbox-gl';
 
 let currentBasemapID = 0;
 
-mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN';
+// don't need since mapbox basemap isn't loaded
+// mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN';
 
 const map = new mapboxgl.Map({
   container: 'map',
